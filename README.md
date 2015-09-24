@@ -9,6 +9,8 @@ JVFloatLabeledTextField + NSStringMask
 
 This fork adds [NSStringMask](https://github.com/fjcaetano/NSStringMask), so JVFloatLabeledTextField now inherits from UITextFieldMask.
 
+This fork adds [NSStringMask](https://github.com/fjcaetano/NSStringMask), so JVFloatLabeledTextField now inherits from UITextFieldMask.
+
 Due to space constraints on mobile devices, it is common to rely solely on placeholders as a means to label fields.
 This presents a UX problem, in that, once the user begins to fill out a form, no labels are present.
 
