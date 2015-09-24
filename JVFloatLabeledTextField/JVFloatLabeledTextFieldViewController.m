@@ -75,6 +75,10 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     [self.view addSubview:titleField];
     titleField.translatesAutoresizingMaskIntoConstraints = NO;
     titleField.keepBaseline = YES;
+    // mask
+#pragma mark mask tests
+    titleField.mask = [NSStringMask maskWithPattern:@"(\\d{2})/(\\d{2})/(\\d{4})"];
+    
 
     UIView *div1 = [UIView new];
     div1.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.3f];

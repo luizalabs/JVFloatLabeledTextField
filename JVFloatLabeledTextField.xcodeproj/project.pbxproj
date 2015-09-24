@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15BA9B821BB49DFB00F2AE77 /* NSStringMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9B7F1BB49DFB00F2AE77 /* NSStringMask.m */; };
+		15BA9B831BB49DFB00F2AE77 /* UITextFieldMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9B811BB49DFB00F2AE77 /* UITextFieldMask.m */; };
 		4306C37419531E7000CC0A4C /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 4306C37319531E7000CC0A4C /* NSString+TextDirectionality.m */; };
 		639EABFA1B0B5F79001DD7B5 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF4DB92180B865F008527BD /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		639EABFB1B0B5F79001DD7B5 /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9AB495183B2EBF00694AB0 /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +61,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15BA9B7E1BB49DFB00F2AE77 /* NSStringMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringMask.h; sourceTree = "<group>"; };
+		15BA9B7F1BB49DFB00F2AE77 /* NSStringMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringMask.m; sourceTree = "<group>"; };
+		15BA9B801BB49DFB00F2AE77 /* UITextFieldMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldMask.h; sourceTree = "<group>"; };
+		15BA9B811BB49DFB00F2AE77 /* UITextFieldMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldMask.m; sourceTree = "<group>"; };
 		4306C37219531E7000CC0A4C /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
 		4306C37319531E7000CC0A4C /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 		639EABD51B0B5E6F001DD7B5 /* JVFloatLabeledText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVFloatLabeledText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,6 +233,10 @@
 				7F9AB496183B2EBF00694AB0 /* JVFloatLabeledTextView.m */,
 				4306C37219531E7000CC0A4C /* NSString+TextDirectionality.h */,
 				4306C37319531E7000CC0A4C /* NSString+TextDirectionality.m */,
+				15BA9B7E1BB49DFB00F2AE77 /* NSStringMask.h */,
+				15BA9B7F1BB49DFB00F2AE77 /* NSStringMask.m */,
+				15BA9B801BB49DFB00F2AE77 /* UITextFieldMask.h */,
+				15BA9B811BB49DFB00F2AE77 /* UITextFieldMask.m */,
 			);
 			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
@@ -393,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BA9B821BB49DFB00F2AE77 /* NSStringMask.m in Sources */,
 				7FF4DB94180B865F008527BD /* JVFloatLabeledTextField.m in Sources */,
 				7F50338E17FA7B8C0026FB7F /* JVFloatLabeledTextFieldViewController.m in Sources */,
 				4306C37419531E7000CC0A4C /* NSString+TextDirectionality.m in Sources */,
@@ -400,6 +411,7 @@
 				7F50336617FA7B0A0026FB7F /* main.m in Sources */,
 				7FE3F0E41CB0598B00202683 /* JVFloatLabeledTextFieldXIBViewController.m in Sources */,
 				7F9AB497183B2EBF00694AB0 /* JVFloatLabeledTextView.m in Sources */,
+				15BA9B831BB49DFB00F2AE77 /* UITextFieldMask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

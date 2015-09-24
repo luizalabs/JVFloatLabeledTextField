@@ -25,7 +25,7 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import "UITextFieldMask.h"
 
 /**
  * `JVFloatLabeledTextField` is a `UITextField` subclass that implements the "Float Label Pattern".
@@ -41,7 +41,7 @@
  * Credits for the concept to Matt D. Smith (@mds), and his original design:  http://mattdsmith.com/float-label-pattern/
  */
 IB_DESIGNABLE
-@interface JVFloatLabeledTextField : UITextField
+@interface JVFloatLabeledTextField : UITextFieldMask
 
 /**
  * Read-only access to the floating label.
