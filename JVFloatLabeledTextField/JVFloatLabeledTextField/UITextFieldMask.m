@@ -35,6 +35,7 @@
 - (void)setDelegate:(id<UITextFieldDelegate>)delegate
 {
     self._extension = delegate;
+    [super setDelegate:self];
 }
 
 - (void)setMask:(NSStringMask *)mask
