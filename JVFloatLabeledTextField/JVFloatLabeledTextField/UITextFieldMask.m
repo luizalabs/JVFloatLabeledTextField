@@ -55,6 +55,10 @@
         return NO;
     }
     
+    if (!self.mask) {
+        return YES;
+    }
+    
     NSString *mutableString = [textField.text stringByReplacingCharactersInRange:range withString:string];
     
     NSString *clean = [self.mask validCharactersForString:mutableString];
