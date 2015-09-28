@@ -138,7 +138,6 @@
 {
     if ([self._extension respondsToSelector:@selector(textFieldShouldReturn:)])
     {
-        textField.text = [self.mask validCharactersForString:textField.text];
         return [self._extension textFieldShouldReturn:textField];
     }
     
