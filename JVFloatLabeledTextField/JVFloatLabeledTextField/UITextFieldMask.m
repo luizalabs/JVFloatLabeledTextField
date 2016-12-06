@@ -25,7 +25,7 @@
     self = [super init];
     if (self)
     {
-        self.mask = mask;
+        self.textMask = mask;
     }
     return self;
 }
@@ -40,7 +40,7 @@
 
 - (void)setMask:(NSStringMask *)mask
 {
-    _mask = mask;
+    _textMask = mask;
     
     [super setDelegate:(mask ? self : nil)];
 }
@@ -55,15 +55,15 @@
         return NO;
     }
     
-    if (!self.mask) {
+    if (!self.textMask) {
         return YES;
     }
     
     NSString *mutableString = [textField.text stringByReplacingCharactersInRange:range withString:string];
     
-    NSString *clean = [self.mask validCharactersForString:mutableString];
+    NSString *clean = [self.textMask validCharactersForString:mutableString];
     
-    mutableString = [self.mask format:mutableString];
+    mutableString = [self.textMask format:mutableString];
     
     NSRange newRange = NSMakeRange(0, 0);
     
@@ -150,7 +150,7 @@
 {
     [super awakeFromNib];
     
-    if (self.mask)
+    if (self.textMask)
     {
         [super setDelegate:self];
     }

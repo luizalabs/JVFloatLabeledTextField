@@ -61,7 +61,7 @@
 
 /** The mask to be applied to the text field.
  */
-@property (nonatomic, strong) NSStringMask *mask;
+@property (nonatomic, strong) NSStringMask *textMask;
 
 #pragma mark - Instance Methods
 /// @name Instance Methods
