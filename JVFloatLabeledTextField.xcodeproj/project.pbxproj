@@ -10,6 +10,10 @@
 		15BA9B821BB49DFB00F2AE77 /* NSStringMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9B7F1BB49DFB00F2AE77 /* NSStringMask.m */; };
 		15BA9B831BB49DFB00F2AE77 /* UITextFieldMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9B811BB49DFB00F2AE77 /* UITextFieldMask.m */; };
 		4306C37419531E7000CC0A4C /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 4306C37319531E7000CC0A4C /* NSString+TextDirectionality.m */; };
+		60DFE31A1E8DA012000C4615 /* NSStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BA9B7E1BB49DFB00F2AE77 /* NSStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60DFE31B1E8DA021000C4615 /* NSStringMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9B7F1BB49DFB00F2AE77 /* NSStringMask.m */; };
+		60DFE31C1E8DA023000C4615 /* UITextFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BA9B801BB49DFB00F2AE77 /* UITextFieldMask.h */; };
+		60DFE31D1E8DA02D000C4615 /* UITextFieldMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA9B811BB49DFB00F2AE77 /* UITextFieldMask.m */; };
 		639EABFA1B0B5F79001DD7B5 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF4DB92180B865F008527BD /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		639EABFB1B0B5F79001DD7B5 /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9AB495183B2EBF00694AB0 /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		639EABFC1B0B5F79001DD7B5 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 4306C37219531E7000CC0A4C /* NSString+TextDirectionality.h */; };
@@ -250,6 +254,8 @@
 			files = (
 				639EAC011B0B6013001DD7B5 /* JVFloatLabeledText.h in Headers */,
 				639EABFA1B0B5F79001DD7B5 /* JVFloatLabeledTextField.h in Headers */,
+				60DFE31C1E8DA023000C4615 /* UITextFieldMask.h in Headers */,
+				60DFE31A1E8DA012000C4615 /* NSStringMask.h in Headers */,
 				639EABFB1B0B5F79001DD7B5 /* JVFloatLabeledTextView.h in Headers */,
 				639EABFC1B0B5F79001DD7B5 /* NSString+TextDirectionality.h in Headers */,
 			);
@@ -385,7 +391,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				639EABFD1B0B5F83001DD7B5 /* JVFloatLabeledTextField.m in Sources */,
+				60DFE31B1E8DA021000C4615 /* NSStringMask.m in Sources */,
 				639EABFE1B0B5F83001DD7B5 /* JVFloatLabeledTextView.m in Sources */,
+				60DFE31D1E8DA02D000C4615 /* UITextFieldMask.m in Sources */,
 				639EABFF1B0B5F83001DD7B5 /* NSString+TextDirectionality.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
