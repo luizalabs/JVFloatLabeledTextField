@@ -35,3 +35,5 @@ FOUNDATION_EXPORT const unsigned char JVFloatLabeledTextVersionString[];
 
 #import <JVFloatLabeledText/JVFloatLabeledTextField.h>
 #import <JVFloatLabeledText/JVFloatLabeledTextView.h>
+#import <JVFloatLabeledText/NSStringMask.h>
+#import <JVFloatLabeledText/UITextFieldMask.h>

@@ -7,6 +7,7 @@
 //
 
 #import "UITextFieldMask.h"
+#import "NSStringMask.h"
 
 @interface UITextFieldMask ()
 

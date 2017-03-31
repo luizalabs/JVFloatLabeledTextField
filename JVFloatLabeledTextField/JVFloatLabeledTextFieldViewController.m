@@ -77,7 +77,7 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     titleField.keepBaseline = YES;
     // mask
 #pragma mark mask tests
-    titleField.mask = [NSStringMask maskWithPattern:@"(\\d{2})/(\\d{2})/(\\d{4})"];
+    titleField.textMask = [NSStringMask maskWithPattern:@"(\\d{2})/(\\d{2})/(\\d{4})"];
     
 
     UIView *div1 = [UIView new];
