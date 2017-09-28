@@ -13,7 +13,7 @@
 /**
  *  The user defined `UITextFieldDelegate`.
  */
-@property (nonatomic, strong) id<UITextFieldDelegate> _extension;
+@property (nonatomic, weak) id<UITextFieldDelegate> _extension;
 
 @end
 
